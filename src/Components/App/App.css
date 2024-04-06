@@ -1,0 +1,29 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Header {
+    width: 100%;
+}
+
+.Squares-container {
+    display: flex;
+    width: 100%;
+}
+
+.Details,
+.Skills {
+    flex: 1; /* Each square takes up equal space horizontally */
+    height: auto; /* Adjust height as needed */
+    margin: 10px;
+    background-color: lightblue;
+    /* Optional: To center the content vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    text-align: left;
+    padding: 2px;
+    
+}
